@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Legal Metrology Compliance</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+
+        <div class="header">
+
+            <h1>Legal Metrology Compliance</h1>
+
+            <p>
+                Check packaged product compliance easily
+            </p>
+
+        </div>
+
+
+        <!-- Scan & Upload -->
+
+        <div class="options">
+
+            <!-- Scan Product -->
+
+            <div class="card">
+
+                <div class="icon">
+                    📷
+                </div>
+
+                <h2>Scan Product</h2>
+
+                <p>
+                    Scan the barcode or QR code of the product.
+                </p>
+
+                <div class="scanner-box">
+
+                    <div class="scan-icon">
+                        📷
+                    </div>
+
+                    <p>Place barcode or QR code here</p>
+
+                    <span>Ready to Scan</span>
+
+                </div>
+
+                <button id="scanButton">
+                    Start Scanning
+                </button>
+
+            </div>
+
+
+            <!-- Upload Image -->
+
+            <div class="card">
+
+                <div class="icon">
+                    🖼️
+                </div>
+
+                <h2>Upload Image / Label</h2>
+
+                <p>
+                    Upload a product image or label.
+                </p>
+
+                <label class="file-label">
+
+                    Choose Product Image
+
+                    <input
+                        type="file"
+                        id="imageInput"
+                        accept="image/*"
+                    >
+
+                </label>
+
+
+                <img
+                    id="imagePreview"
+                    src=""
+                    alt="Product Preview"
+                >
+
+
+                <button id="uploadButton">
+                    Upload Image
+                </button>
+
+            </div>
+
+        </div>
+
+
+        <!-- Product Information -->
+
+        <div class="product-section">
+
+            <h2>Product Information</h2>
+
+            <div class="product-card">
+
+                <div class="info-row">
+                    <span>Product Name</span>
+                    <strong>Sample Product</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Brand</span>
+                    <strong>Sample Brand</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>MRP</span>
+                    <strong>₹100</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Quantity</span>
+                    <strong>500 g</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Ingredients</span>
+                    <strong>Ingredients information</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Manufacturing Date</span>
+                    <strong>01/08/2026</strong>
+                </div>
+
+                <div class="info-row">
+                    <span>Expiry Date</span>
+                    <strong>01/08/2027</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- Compliance Result -->
+
+        <div class="compliance-section">
+
+            <h2>Compliance Result</h2>
+
+            <div class="result-card">
+
+                <div class="result-icon">
+                    ✓
+                </div>
+
+                <h3>Product Status</h3>
+
+                <p class="status">
+                    COMPLIANT
+                </p>
+
+                <p>
+                    All required packaged commodity details are available.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Footer -->
+
+        <footer>
+
+            <p>
+                Legal Metrology Compliance System
+            </p>
+
+        </footer>
+
+    </div>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
